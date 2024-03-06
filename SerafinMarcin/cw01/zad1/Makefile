@@ -1,5 +1,5 @@
 CXX=gcc
-CFLAGS = -Wall -Wextra -g
+CFLAGS = -Wall -std=c17 -Wextra -g
 
 .PHONY: all countdown clean
 
