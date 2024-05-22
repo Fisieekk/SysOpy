@@ -1,0 +1,10 @@
+Single byte: 0.000022
+Single byte: 0.000005
+Thousand byte: 0.000001
+Thousand byte: 0.000001
+Single byte: 0.000014
+Single byte: 0.000006
+Single byte: 0.000005
+Single byte: 0.000005
+Thousand byte: 0.000001
+Thousand byte: 0.000000
