@@ -38,7 +38,6 @@ void* handle_client(void* arg) {
     char client_id[32];
     int read_size;
 
-    // Receive client id
     if ((read_size = recv(client_socket, client_id, sizeof(client_id), 0)) <= 0) {
         perror("recv");
         close(client_socket);
@@ -110,7 +109,7 @@ void handle_sigint(int sig) {
     for (int i = 0; i < MAX_CLIENTS; i++) {
         if (clients[i].active) {
             send(clients[i].socket, "Server is shutting down...\n", strlen("Server is shutting down...\n"), 0);
-            send(clients[i].socket, "STOP", strlen("STOP"), 0); // Instruct client to exit
+            send(clients[i].socket, "STOP", strlen("STOP"), 0);
             close(clients[i].socket);
         }
     }
