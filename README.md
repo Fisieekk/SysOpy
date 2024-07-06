@@ -1,6 +1,6 @@
 <body>
   
-# SysOpy - Operating Systems
+# SysOps - Operating Systems
 ## Repository for Operating Systems Course (Code for labs)
 
 ### Creator:
